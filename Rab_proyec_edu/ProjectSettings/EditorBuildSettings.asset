@@ -5,16 +5,34 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
+    path: Assets/RAB_Root/Scenes/SCN_MainMenu.unity
+    guid: bafd89a77da94c64480303f9e58d0d24
+  - enabled: 1
     path: Assets/RAB_Root/Scenes/SCN_Alvaro_Test.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/SCN_MainMenu.unity
-    guid: c9f1eee46d31cc24b9e6b3588b614965
+    path: Assets/RAB_Root/Scenes/SCN_Edu_test.unity
+    guid: 6d2b54fbc89423545bf07bf69c5f4630
   - enabled: 1
+    path: Assets/RAB_Root/Scenes/SCN_Elena_test.unity
+    guid: bb304ca0b15e48b47ad72bc6a6e7188a
+  - enabled: 1
+    path: Assets/RAB_Root/Scenes/SCN_Jordan_test.unity
+    guid: 342d568ca6e7d9347856cf8f47827b67
+  - enabled: 1
+    path: Assets/RAB_Root/Scenes/SCN_Max_test.unity
+    guid: 1afc73fdaa1eaf64985285efedc644a3
+  - enabled: 1
+    path: Assets/RAB_Root/Scenes/SCN_Victory.unity
+    guid: dd759d768f6cc6f469c52681e4f2f139
+  - enabled: 0
     path: Assets/Scenes/SCN_Level1.unity
     guid: 49d40fca954cf4144bb080f2747c2a5f
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/SCN_MainMenu.unity
+    guid: c9f1eee46d31cc24b9e6b3588b614965
+  - enabled: 0
     path: Assets/Scenes/SCN_Victory.unity
     guid: 870a9405098ade94db40ff917073240d
   m_configObjects:
