@@ -4,7 +4,7 @@ public class Shark : MonoBehaviour
 {
     public int rutina;
     public float cronometro;
-    public int Animator ani;
+    public Animator ani;
     public Quaternion angulo;
     public float grado;
 
