@@ -3,9 +3,9 @@
 public class BouncePad : MonoBehaviour
 {
     [Header("Ajustes de rebote")]
-    public float bounceForce = 20f;          // Fuerza del salto
-    public string playerTag = "Player";      // Tag del jugador
-    public GameObject bounceEffect;          // Efecto visual opcional
+    public float bounceForce = 20f;          
+    public string playerTag = "Player";     
+    public GameObject bounceEffect;          
 
     private void OnCollisionEnter(Collision collision)
     {
