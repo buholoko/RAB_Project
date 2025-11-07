@@ -5,9 +5,9 @@ using TMPro;
 public class Texto : MonoBehaviour
 {
     [Header("Configuración")]
-    public float tiempoEntreLetras = 0.05f; // Velocidad de escritura
-    public TextMeshProUGUI textMeshProUGUI; // Referencia al componente de texto
-    public string[] textos; // Lista de textos a mostrar
+    public float tiempoEntreLetras = 0.05f;
+    public TextMeshProUGUI textMeshProUGUI; 
+    public string[] textos; 
 
     private int textoIndex = 0;
     private bool escribiendo = false;
@@ -21,7 +21,7 @@ public class Texto : MonoBehaviour
 
     void Update()
     {
-        // Solo avanza si el texto terminó y se hace clic izquierdo
+       
         if (textoTerminado && Input.GetMouseButtonDown(0))
         {
             textoTerminado = false;
@@ -33,7 +33,7 @@ public class Texto : MonoBehaviour
             }
             else
             {
-                // Si ya no hay más textos, puedes ocultar el texto o hacer otra acción
+                
                 textMeshProUGUI.text = "";
                 Debug.Log("Fin de los textos.");
             }
