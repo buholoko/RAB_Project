@@ -9,6 +9,7 @@ public class BouncePad : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public float bounceForce = 20f;          
     public string playerTag = "Player";     
     public GameObject bounceEffect;          
@@ -23,6 +24,8 @@ public class BouncePad : MonoBehaviour
 >>>>>>> a8ba3f5bb9fe1b2325630dafe6fa158633f87c53
 =======
 >>>>>>> a8ba3f5bb9fe1b2325630dafe6fa158633f87c53
+=======
+>>>>>>> e8e6c1a2e7df372e88884dd0c13e8ecbb41dea3b
     public float bounceForce = 10f;          // Fuerza del salto
     public string playerTag = "Player";      // Tag del jugador
     public GameObject bounceEffect;          // Efecto visual opcional
